@@ -1,0 +1,34 @@
+{
+  "name": "god-promise",
+  "version": "1.0.0",
+  "description": "simple implementation of promise based on promise a+",
+  "main": "god-promise.js",
+  "scripts": {
+    "build": "parcel build god-promise.js --global GodPromise",
+    "dev": "parcel watch god-promise.js --global GodPromise",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mum-never-proud/god-promise.git"
+  },
+  "keywords": [
+    "promise",
+    "callbacks",
+    "hell"
+  ],
+  "author": "mum-never-proud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mum-never-proud/god-promise/issues"
+  },
+  "homepage": "https://github.com/mum-never-proud/god-promise#readme",
+  "devDependencies": {
+    "@babel/core": "7.10.2",
+    "@babel/preset-env": "7.10.2",
+    "eslint": "7.1.0",
+    "jest": "26.0.1",
+    "parcel": "1.12.4"
+  }
+}
