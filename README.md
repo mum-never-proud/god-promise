@@ -1,2 +1,3 @@
 # god-promise
-simple implementation of Promise in JS
+
+Implementation of Promise in JS based on https://promisesaplus.com/ Spec.
